@@ -13,7 +13,7 @@ export default function NavbarItem({ title, param }) {
                         ? 'underline underline-offset-8 decoration-4 decoration-amber-500 rounded-lg'
                         : ''
                     }`}
-                    href={'/top/${param}'}
+                href={`/top/${param}`}
                 >
                     {title}
                 </Link>
