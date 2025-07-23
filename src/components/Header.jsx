@@ -5,13 +5,13 @@ export default function Header() {
     return (
         <div className="flex justify-between max-w-6xl p-3 mx-auto border-b rounded-b-xl font-bold">
             <ul className="flex gap-4">
-                <li>
+                <li className="hover:text-amber-500">
                     <Link href={"/sign-in"}>Sign-in</Link>
                 </li>
-                <li className="hidden sm:block">
+                <li className="hidden sm:block hover:text-amber-500">
                     <Link href={"/"}>Home</Link>
                 </li>
-                <li className="hidden sm:block">
+                <li className="hidden sm:block hover:text-amber-500">
                     <Link href={"/about"}>About</Link>
                 </li>
             </ul>
